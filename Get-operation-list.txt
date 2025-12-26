@@ -21,3 +21,5 @@ mixtureFindPassword
 GetLoginProfile
 getLoginCredential
 GetUser
+GetAccount
+GetCCN
