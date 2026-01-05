@@ -1,0 +1,73 @@
+gold mine
+"InvalidAction"
+InvalidParam
+InvalidParameter
+ErrorNoMethod
+ActionNoFound
+AccountEnterError
+ParameterInvalid
+
+use on that give on secrete endpoint
+"Error":{"Code":"InvalidAccountName","Message":"Invalid account Name ''"}
+
+if give this change method or content type or words like at to At or AT or aT etc you find itresting
+
+
+not gold mine
+"Code":"InvalidActionOrVersion",
+
+
+fuzz like
+GetFUZZ
+getFUZZ
+ListFUZZ
+
+all get post
+
+Accept
+Add
+Attach
+Create
+Delete
+Describe
+Get
+List
+Describe
+Query
+Search
+Edit
+Update
+
+
+all get/post in small
+accept
+add
+attach
+create
+delete
+describe
+get
+list
+describe
+query
+search
+edit
+update
+
+all Version
+2018-01-01
+2020-01-01
+2020-04-01
+2020-12-16
+2021-01-01
+2021-02-18
+2021-06-01
+2021-08-01
+2022-01-01
+2022-06-01
+2022-07-01
+2023-01-01
+2023-06-01
+2024-01-01
+2024-05-01
+2024-06-01
