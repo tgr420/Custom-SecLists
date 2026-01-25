@@ -1,0 +1,582 @@
+https://hackerone.com/calendly_bbp?type=team
+
+https://www.mentimeter.com/app/team-members
+https://calendly.com
+
+all emails
+
+attacker
+sweetvillani5@imcourageous.com
+Acd3423@#345
+
+owner
+
+admin email and pass
+Acd3423@#345
+reverentvillani6@tomorjerry.com
+
+user1
+competentkeldysh7@ysosirius.com
+Acd3423@#345
+
+user2
+naughtyalbattani3@getsafesurfer.com
+Acd3423@#345
+
+user3
+zenbanach2@justzeus.com
+Acd3423@#345
+
+user4
+adoringjepsen1@fearlessmails.com
+Acd3423@#345
+
+attacker
+sweetvillani5@imcourageous.com
+Acd3423@#345
+
+other
+https://mail.tm/en/
+
+
+https://public.sqrx.com/login
+
+password
+Acd3423@#345
+
+brave & burp organge tab
+infalliblehermann9@deliveryotter.com
+Acd3423@#345
+
+google chrome & burp blue tab
+tan.tiger5564@maildrop.cc
+
+burp cyen tab
+halting.jaguar8320@maildrop.cc
+
+burp green tab
+icy.pony4821@maildrop.cc
+
+burp yellow tab
+fine.spoonbill7635@maildrop.cc
+
+burp red tab
+craven.seahorse7705@maildrop.cc
+
+
+https://account.protonvpn.com/login
+infalliblehermann9@deliveryotter.com
+Acd3423@#345
+
+
+https://maildrop.cc/inbox/?mailbox=tan.tiger5564
+tan.tiger5564@maildrop.cc
+
+
+test mass as
+,"is_organization_owner":true,"organization_role":"owner"
+
+
+api subs
+https://api.calendly.com/organizations/71a256d1-3fc7-467c-9317-c06728eb3fdc
+api.calendly.com
+login.calendly.com
+api.s.calendly.com
+help.calendly.com
+
+
+out of scope bugs
+Admin can change owner and other admins workflows phone number within the same organization
+A high-privileged user (Owner or Admin) attacking their own organization
+
+
+register url
+https://login.calendly.com/signin/register
+
+docs
+https://developer.calendly.com/api-docs/4b402d5ab3edd-calendly-developer
+https://help.calendly.com/hc/en-us/articles/4410722852759-User-roles-and-permissions
+
+console
+https://developer.calendly.com/console/apps
+
+
+api path
+/api/oauth_apps
+
+
+{"resource":{"client_id":"jeoDb_32d7qfE-V9L0IYj-deV-Ofb76FiyWm10lusxU","client_secret":"DKPFnqGcIA3lfZD64_81artUKx1WWTKScQfCuBu9ITI","confidential":true,"created_at":"2026-01-22T12:32:29.524947Z","description":"oauth_app","developer_team_id":"c8c904a7-42df-40ca-a4fd-6027f8f9d4fe","environment":"Sandbox","name":"owner","redirect_uri":"https://app.example.com/auth","scopes":[],"updated_at":"2026-01-22T12:32:29.524947Z","webhook_signing_key":"fG9LBE1E3FZ-Bx0qWaRwBpy3XxPpqKJLaLG-p_5t4zg"}}
+
+"developer_team_id":"c8c904a7-42df-40ca-a4fd-6027f8f9d4fe"
+
+main login
+https://calendly.com/app/login
+
+https://calendly.com/app/signup
+
+unouth
+GET /api/authentication/lookup?flow=signup&email=reverentvillani6%40tomorjerry.com
+
+intro 
+https://calendly.com/app/intro/team
+
+token or cookie
+_calendly_session
+
+owner
+"id":49052164,
+
+/app/intro/api/team
+PUT /app/intro/api/meetings
+
+method
+PATCH
+PUT
+POST
+GET
+DELETE
+
+Content type
+
+Content-Type: application/x-www-form-urlencoded
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOXR2UAPlIjwPJaeq
+Content-Type: application/json
+
+
+edit profile
+PATCH /api/account/settings
+
+
+test for idor
+GET /api/users/49052164/booking_verification_settings
+GET /api/users/49052164/phone_numbers
+
+/api/account/settings/49418989/users
+/api/account/settings/49052164
+/api/account/settings/users/49418989
+/api/account/settings/users/49052164
+/api/account/settings/id/49418989
+/api/account/settings/profile/49418989
+
+49052164
+
+/api/account/settings/{combind-path}
+
+combind and give all possible paths with these words
+users
+user
+profiles
+profile
+id
+ids
+user_profile
+user_profiles
+users_profile
+users_profiles
+
+49418989
+49052164
+2950d7bf-c9f2-486f-9496-9daace2e7bc6
+
+invite-link
+https://calendly.com/organization/invitations/accept/3d6fa7e7-8afc-45bf-9b43-e68825d58163?key=71080cd50b01e297925863361eb051da625bb802c75428ba9bb43893e6682192&utm_source=orginvite
+
+publik
+GET /api/booking/profiles/reverentvillani6-tomorjerry
+
+email see for current user login
+https://calendly.com/api/booking/event_types/3af12476-3eb7-46aa-ad1e-b1d95c1fa9c8/calendar/range?timezone=Asia%2FCalcutta&diagnostics=false&range_start=2026-01-22&range_end=2026-01-31&scheduling_link_uuid=cvgc-5pq-rtg
+
+booking invite
+POST /api/booking/invitees 
+
+https://calendly.com/reverentvillani6-tomorjerry/30min/invitees/48b9fb67-8c58-4766-8119-f4d6aca18ec8
+
+intresting api there we see email
+GET /api/user
+GET /app/intro/api/user
+GET /api/organization
+GET /api/users/me/event_types?scope=my_calendly
+GET /api/account/settings
+GET /api/booking/initial_settings
+GET /api/users/me/event_types/195208490
+GET /api/users/49052164/event_types/195208490
+GET /api/users/me/event_types
+
+
+give id vailu in response in these paths
+GET /api/availability/event_types
+"event_types":
+GET /api/booking/event_types/lookup
+GET /api/users/49052164/booking_verification_settings
+GET /api/users/49052164/event_types/195208490
+
+
+patch paths
+PATCH /api/organization/managed_event_types/195287302
+PATCH /api/users/49052164/activation_data
+PATCH /api/users/49052164/event_types/195208490
+POST /api/organization/managed_event_types
+
+see these path
+GET /api/apps/workflows/managed_workflows
+GET /api/apps/workflows/organization_settings
+GET /api/organization/workflows/new
+GET /api/account/branding_settings
+
+POST /api/users/49052164/booking_verification_settings
+GET /api/users/49052164/booking_verification_settings
+
+
+i gess
+GET /api/account/organization_settings
+GET /api/account/workflows_settings
+GET /api/account/user_settings
+GET /api/account/users_settings
+
+
+same endpoint that have get,post or patch or put or delete method enable
+POST /api/users/49052164/booking_verification_settings
+GET /api/users/49052164/booking_verification_settings
+
+
+GET /api/account/branding_settings
+PATCH /api/account/branding_settings
+
+GET /api/account/settings
+PATCH /api/account/settings
+
+
+GET /api/app/settings
+GET /api/apps/workflows/managed_workflows
+
+GET /api/apps/workflows/organization_settings
+PATCH /api/apps/workflows/organization_settings
+
+
+GET /api/apps/workflows/owners?owner_id=me&owner_type=user
+GET /api/billing/next_bill
+GET /api/billing/plans
+GET /api/billing/subscription/policy
+GET /api/billing/subscription/transaction_history
+GET /api/booking/event_types/3af12476-3eb7-46aa-ad1e-b1d95c1fa9c8/calendar/range
+GET /api/booking/features/71a256d1-3fc7-467c-9317-c06728eb3fdc
+GET /api/booking/profiles/reverentvillani6-tomorjerry
+GET /api/booking/profiles/reverentvillani6-tomorjerry/event_types
+
+GET /api/organization
+POST /api/organization/invitations/bulk
+PUT /api/organization/invitation_permissions
+PUT /api/organization/name?name=owner
+PUT /api/organization/shared_event_type_settings
+PUT /api/organization/invitation_permissions
+
+
+GET /api/organization/managed_event_types/195287302
+PATCH /api/organization/managed_event_types/195287302
+POST /api/organization/managed_event_types
+
+
+GET /api/organization/memberships
+PATCH /api/organization/memberships/batch_change_role
+
+
+GET /api/organization/user_groups
+GET /api/organization/workflows/new 
+
+GET /api/reports/configuration
+POST /api/reports/configuration
+
+
+GET /api/scheduling/polls/user/49076647
+GET /api/scheduling/single_use_links/user/49076647
+
+GET /api/users/*
+PATCH /api/users/49052164/activation_data
+
+GET /api/users/49052164/booking_verification_settings
+POST /api/users/49052164/booking_verification_settings
+DELETE /api/users/49052164/booking_verification_settings/batch_destroy
+
+GET /api/users/49052164/event_types/195208490
+PATCH /api/users/49052164/event_types/195208490
+
+
+GET /api/users/49076647/event_types
+GET /api/users/me/event_types/195208490
+
+
+most intresting
+GET /api/reports/events/rescheduled?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&start=1768069800&end=1768674600&status=rescheduled
+
+GET /api/reports/events/cancelled?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&start=1768588200&end=1769149800&status=cancelled
+
+
+GET /api/reports/form_responses?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&range=all_time
+
+GET /api/reports/meetings?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&start=1763922600&end=1766514600&status=booked
+
+GET /api/reports/users/integrations/calendar?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=has_errors
+user_settings
+
+GET /api/reports/users/integrations/calendar?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=not_connected
+
+{"resource":{"uuid":"18977b0a-65e5-4818-bb5c-e9e501026031","organization_uuid":"71a256d1-3fc7-467c-9317-c06728eb3fdc","workflows_enabled_for":"admins_only","sms_activated_for":"all_members"}}
+
+find passwords in js
+
+71217:e=>{var a;a={passwords:
+.split(","),surnames:
+
+ncenzo,shon,michal,lynwood,jere,elden,darell,broderick,alonso".split(",")
+
+GET /assets/authentication/js/404-e2c3d9be4.chunk.js
+"id":49418989
+profile
+
+this give secrets
+/api/account/settings/
+
+"paypal":{"env":"production","client_id":"AUPF8VFKX8BsjR3ON0IDB71s2tcW_RF-q-ppFwFU81LfDUCyhPChAeATXYPeGsgLIlB9TEN_bkh-_ASb"}
+
+"hash_key":"un8gGG&db#yFJVih","login":{"activated":true},"project_id":"calendly.com:api-project-797340822162","site_key":"6LeAb4QUAAAAAOM9CNYSsvbnzWTByRAgm3GA5D4n","site_key_v2":"6LconfUdAAAAAJG0y6uxwAHgBWKnRRiDIr3TkABV"}
+
+
+GET /api/booking/profiles/reverentvillani6-tomorjerry
+
+create
+/api/users/me/profile
+/api/users/me/profile_id
+/api/users/49052164/profile
+/api/booking/profile/lookup
+
+```
+GET /api/app/settings
+```
+
+_id":
+_path":
+
+
+https://calendly.com/api/users/me/event_types/195208490
+
+GET /api/reports/users/integrations/web_conferencing?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=not_connected
+
+https://calendly.com/api/reports/users/integrations/web_conferencing?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=not_connected
+
+GET /api/reports/users/integrations/calendar?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=not_connected
+
+https://calendly.com/api/reports/users/integrations/calendar?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2F71a256d1-3fc7-467c-9317-c06728eb3fdc&group_by=user&status=not_connected
+
+GET /api/organization/memberships?page=1&filter_term=&sort_field=name&sort_order=ascGET /api/organization/memberships?page=1&filter_term=&sort_field=name&sort_order=asc
+
+admin
+https://calendly.com/app/admin/dashboard
+
+
+
+any can see owner email via
+
+GET /api/booking/event_types/3af12476-3eb7-46aa-ad1e-b1d95c1fa9c8/calendar/range?timezone=Asia%2FCalcutta&diagnostics=false&range_start=2026-01-22&range_end=2026-01-31&scheduling_link_uuid=cvgc-5pq-rtg
+
+POST /api/booking/invitees
+
+"scheduled_profile":{"name":"ownerr","avatar_url":null,"logo_url":null,"email":"reverentvillani6@tomorjerry.com"}
+
+
+edit slug
+PATCH /api/account/settings
+
+
+
+http://calendly.com/victime-link
+
+billing path
+
+GET /api/billing/plans
+
+who invites
+PUT /api/organization/invitation_permissions?invitation_permissions_role=admin
+
+acces by user role 
+
+GET /api/apps/workflows/organization_settings
+GET /api/account/branding_settings
+
+api subs
+https://api.calendly.com/users/
+
+understand errors
+
+foldmin errors
+invalid_parameters
+
+goldmine status code
+
+302 Found 
+if give 302 on get then change method get to put
+
+
+404 with Content-Type: application/json
+possible have there any vailid path on that directory
+
+400 Bad Request with Your browser has made a bad request
+mens path have vailid but parameter is invailid on any method post,put or patch
+
+500 Internal Server Error
+there have no object or object vailu is invailid
+
+403 feature_is_not_allowed
+
+note:
+
+
+for vailid give
+200 OK
+
+
+
+user acees
+
+GET /api/organization/
+
+also put work on this endpoint
+PUT /api/organization/
+
+
+only work get
+GET /api/organization/workflows/
+
+p bypass
+PUT /api/g/t/../../organization
+
+intresting path
+GET /api/organization/scim_configuration
+
+
+path `GET /api/organization` see `workflows_enabled_for` object
+
+update on 
+PATCH /api/apps/workflows/organization_settings
+
+vailid req
+
+PUT /api/apps/workflows/organization_settings?organization_settings[workflows_enabled_for]=all_organization_members
+
+
+intresting
+PUT /api/apps/workflows/organization_settings?organization_settings[sms_activated_for]=all_organization_members
+
+
+PUT /api/organization/invitation_permissions?invitation_permissions_role=admin
+
+fuzz like
+
+actions_role
+
+FUZZ_FUZZ
+FUZZ_role
+
+
+
+roles
+
+admin
+owner
+user
+
+test 
+/api/organization/invitation_permissions/ can set by user or admin
+
+
+drive
+"G:\My Drive\ALL-PC-DATA"
+
+
+p-idor
+GET /api/organization/managed_event_types/195287302
+PATCH /api/organization/managed_event_types/195287302
+GET /api/users/49052164/event_types/195208490
+GET /api/booking/routing_forms/ac7a007b-fcfd-49b1-8fe9-2c7c90bc786c
+POST /api/form_builder/forms/ac7a007b-fcfd-49b1-8fe9-2c7c90bc786c/submissions
+
+
+intresting
+GET /api/organization/managed_event_types?only_org_owned=false&page_size=50
+"edit_path":"/app/admin/managed_event_types/195287302/edit",
+
+GET /api/user_busy_times?user_uuid=2950d7bf-c9f2-486f-9496-9daace2e7bc6&start_time=2026-01-18&end_time=2026-01-25
+
+GET /api/v2/help_center/en-us/articles/34725698429975 HTTP/2
+Host: help.calendly.com
+https://calendly.zendesk.com/api/v2/help_center/en-us/articles/34725698429975.json
+https://d3v-calendly.zendesk.com/
+
+test idor 
+POST /api/form_builder/forms
+GET /api/form_builder/forms/359245
+GET /api/users/me/event_types/195208490
+GET /app/intro/api/user
+GET /api/organization/memberships
+GET /api/form_builder/forms/359245/editors
+GET /api/account/settings
+
+GET /api/booking/profiles/reverentvillani6-tomorjerry
+
+possible-idor
+DELETE /api/users/49052164/booking_verification_settings/batch_destroy 
+
+idore
+DELETE /api/users/49052164/booking_verification_settings/batch_destroy
+POST /api/users/49052164/booking_verification_settings
+GET /api/booking/routing_forms/ac7a007b-fcfd-49b1-8fe9-2c7c90bc786c
+
+curl --request GET \
+  --url https://api.calendly.com/users/id \
+  --header 'Authorization: ' \
+  --header 'Content-Type: application/json'
+
+
+this work on PATCH /api/organization/memberships/batch_change_role
+
+
+{"ids":[54096319],"role":"owner"}
+
+
+
+intresting on new paths
+
+PUT /app/intro/api/invites
+
+get roles
+GET /api/organization/memberships
+
+change-roles
+PATCH /api/organization/memberships/batch_change_rolet
+
+batch_change_role
+
+"organization_membership":{"id":54068948,"brief_created_at":"22 January 2026","is_admin_or_owner":true,"role":"owner","user_id":49052164}
+
+
+we can test these on this target
+test `api.calendly.com` subs api try to find unouth path or endpoint or try to do unauthrize actions
+
+try find get same api paths on others subdomain with vailid cookei from main account
+
+try to find idor
+
+today test
+
+can user or admin or anyone change victime email or see victime details
+
+fuzz on first
+fuzzsettings
+fuzz_settings
+
+fuzz on last
+
+managed_fuzz
+
+in both fuzz
+batch_change_role
