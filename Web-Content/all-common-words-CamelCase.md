@@ -3,6 +3,8 @@ Account
 Accounts
 User
 Users
+Contact
+Contacts
 Identity
 Identities
 Principal
